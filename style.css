@@ -1,0 +1,289 @@
+body,h1,h2,p,ul,li{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial,sans-serif;
+}
+
+header{background-color: black;
+    
+    
+    color: whitesmoke;
+    padding: 20px;
+    justify-content: center;
+    font-size: larger;
+    
+
+}
+.logo{
+    font-weight: bold;
+    
+    color: purple;
+    
+}
+.logo:hover{
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.navlinks{
+    display: flex;
+    list-style: none;
+}
+.navlinks li{
+    margin-right: 20px;
+    
+
+}
+.navlinks a{
+    text-decoration: none;
+
+    
+
+
+}
+.navlinks a:hover{
+    box-shadow: 5px 5px;
+    padding: 5px;
+    background-color: white;
+}
+.download-cv:hover{
+    background-color: black;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+    
+    
+
+}
+.about{
+   
+    color: black;
+    padding: 20px;
+    height: max-content;
+    background-image: url(https://img.freepik.com/free-vector/white-abstract-background_23-2148810113.jpg?w=826&t=st=1691912635~exp=1691913235~hmac=2098d4d664f1166c2afa2c0cb67b5e19db51111349c790efe32698b99839008b);
+    background-size: cover;
+    background-position: center;
+    
+   
+    
+
+}
+.about a{
+    
+    text-decoration: none;
+    text-justify: auto;
+}
+#about{
+    padding-left: 40px;
+    padding-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#info{
+    padding-left: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.education{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+    color: black;
+}
+
+#me{
+    border-image: round;
+    border-radius: 50%;
+    width: 150px;
+    
+}
+.edu{
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 20px;
+    color: black;
+}
+.education{
+    display: flex;
+    background-color: rgb(12, 12, 45);
+    color: whitesmoke;
+
+
+}
+.abc{
+    text-align: center;
+}
+.abc p{
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.skills{
+    background-color: rgb(12, 12, 45);
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.myskills{
+    margin: 100px;
+    margin-top: 0px;
+}
+#myskills{
+    text-align: center;
+    background-color:rgb(12, 12, 45);
+    padding: 10px;
+    font-weight: bold;
+    color: whitesmoke;
+    
+    
+}   
+.skills-img{
+    width: 200px;
+   
+
+
+}
+.skills-img-graphic{
+    width: 200px;
+    border-image: round;
+    border-radius: 50%;
+}
+.dep{
+    text-align: center;
+    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.language{
+    width: 70px;
+    background-color: dark seagreen;
+    padding: 20px;
+   
+
+}
+#edu{
+    background-color: rgb(12, 12, 45);
+    color: whitesmoke;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.projects{
+    padding: 20px;
+    background-color: rgb(12, 12, 45);
+    color: whitesmoke;
+    justify-content: space-between;
+
+
+}
+
+.projectimg{
+    width: 150px;
+    margin: 20px 20px 20px 20px;
+    
+   
+}
+.calculator{
+    padding-bottom: 20px;
+    padding-right: 20px;
+
+}
+.PG{
+    padding-bottom: 20px;
+}
+.pro-dep{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.message-us{
+    background-color: rgb(12, 12, 45);
+    color: white;
+    padding: 20px;
+    justify-content: center;
+}
+.message-us h1{
+    bottom: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.form{
+    justify-content: center;
+    display: flex;
+    text-align: right;
+    
+    
+}
+form {
+    
+    border: 2px solid transparent; 
+    padding: 20px; 
+    background-color: whitesmoke;
+    border-image: round;
+    border-radius: 20px;
+}
+
+#button{
+    
+    border-width: 5px;
+    font-size: large;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: blue;
+    border-image: round;
+    border-radius: 10px;
+    background-color: aqua;
+    padding: 5px;
+}
+#button:hover{
+    background-color: red;
+}
+
+
+.contact{
+    
+    background-color: rgb(12, 12, 45);
+    color: whitesmoke;
+    background-image: url();
+    background-position: center;
+    background-size: cover;
+    
+    color: black;
+    padding: 20px;
+
+}
+.contact h1{
+    
+    text-align: center;
+    color: whitesmoke;
+}
+.contact-links{
+    color: whitesmoke;
+}
+.contact h2 img{
+    width: 30px;
+    border-image: round;
+    border-radius: 50%;
+}
+.contact-in-links:hover{
+    color: whitesmoke;
+
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#cal{
+    width: 100px;
+    padding-left: 100px;
+    padding-top: 20px;
+}
